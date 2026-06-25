@@ -1,0 +1,21 @@
+@import './header.css';
+@import './hero.css';
+@import './barra.css';
+@import './lista-cursos.css';
+@import './footer.css';
+@import './body.css';
+
+:root {
+    /* 10px */
+    font-size: 62.5%;
+    --white: #fff;
+    --white10: #f5f3f3;
+}
+
+/* .vacio {
+    padding: 10px;
+    background-color: crimson;
+    text-align: center;
+    border-radius: 10px;
+    color: white;
+} */
