@@ -1,0 +1,46 @@
+.submenu {
+    position: relative;
+}
+
+.submenu #carrito {
+    display: none;
+}
+
+.submenu:hover #carrito {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 100%;
+    z-index: 1;
+    background-color: var(--white);
+    padding: 2rem;
+    min-height: 40rem;
+    min-width: 30rem;
+}
+
+.borrar-curso {
+    background-color: red;
+    border-radius: 50%;
+    padding: .5rem 1rem;
+    text-decoration: none;
+    color: var(--white);
+    font-weight: bold;
+}
+
+.disminuir-curso {
+    border-radius: 50%;
+    padding: .5rem 1rem;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+.aumentar-curso {
+    border-radius: 50%;
+    padding: .5rem 1rem;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 2rem;
+}

@@ -1,0 +1,11 @@
+.footer {
+    margin-top: 4rem;
+    border-top: 0.1rem solid #aaa;
+    padding-top: 4rem;
+}
+
+.footer .menu a {
+    display: block;
+    margin-bottom: 1rem;
+    text-decoration: none;
+}

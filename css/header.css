@@ -1,0 +1,17 @@
+@import './carrito.css';
+
+header {
+    padding: 2rem 0 0 0;
+    background: var(--white);
+    text-align: center;
+}
+
+@media (min-width: 75rem) {
+    header {
+        text-align: left;
+    }
+}
+
+ul {
+    list-style: none;
+}

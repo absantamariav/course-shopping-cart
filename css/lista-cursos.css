@@ -1,0 +1,44 @@
+#encabezado {
+    margin: 3rem 0;
+}
+
+#lista-cursos .row {
+    margin-bottom: 2rem;
+}
+
+.agregar-carrito {
+    margin: 1rem 0;
+}
+
+.card {
+    text-align: center;
+    border: .1rem solid #76cce9;
+    background: white;
+    margin-block-end: rem;
+}
+
+@media (min-width: 55rem) {
+    .card {
+        text-align: left;
+    }
+}
+
+.info-card {
+    padding: 1rem 2rem;
+}
+
+.info-card p,
+.card h4 {
+    margin-bottom: .5rem;
+}
+
+.info-card .precio {
+    text-decoration: line-through;
+    font-size: 1.8rem;
+    margin-top: 1rem;
+}
+
+.info-card .precio span {
+    font-weight: 700;
+    font-size: 2.2rem;
+}
